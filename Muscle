@@ -170,7 +170,7 @@ text.BorderSizePixel = 0
 text.Position = UDim2.new(0.185840711, 0, 0.0353535339, 0)
 text.Size = UDim2.new(0, 200, 0, 50)
 text.Font = Enum.Font.SourceSansBold
-text.Text = "Join .gg/ggcjzQ8EXv for the key"
+text.Text = "Key is "free""
 text.TextColor3 = Color3.fromRGB(255, 255, 255)
 text.TextScaled = true
 text.TextSize = 14.000
@@ -297,7 +297,7 @@ local function MNEMF_fake_script() -- Check.LocalScript
 	local script = Instance.new('LocalScript', Check)
 
 	script.Parent.Activated:Connect(function()
-		if script.Parent.Parent.KeyType.Text == "" then
+		if script.Parent.Parent.KeyType.Text == "free" then
 			script.Parent.Parent.Visible = false
 			script.Parent.Parent.Parent.Main.Visible = true
 			local sfx = Instance.new("Sound", script.Parent.Parent.Parent)
